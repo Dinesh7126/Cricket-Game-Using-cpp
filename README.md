@@ -1,7 +1,7 @@
-#Problem Statement <br />
+**Problem Statement** <br />
 Write a C++ program to build a mini cricket application named Gully Cricket App.<br />
-#Project Requirements <br />
-1. There should be two teams: TeamA and TeamB <b<br />r />
+**Project Requirements** <br />
+1. There should be two teams: TeamA and TeamB <br />
 a. Each team will have 3 players. <br />
 b. The 
 player names will not be entered by the user. You can assign names to the players yourself <br />
@@ -14,7 +14,7 @@ b. TeamA will always bat first which means TeamB will always bowl first.<br />
 4. There will be no criteria to get wickets. In simple words, once a batsman starts his inning, he will bat for all the 6 balls without getting out/dismissed/retired hurt etc.<br />
 5. After completion of two innings i.e. after each team has done batting, scored runs will be compared to decide the winner or to decide if there is a tie.
 **Note:** The match will conclude only after each batting team has faced 6 deliveries. In the second inning, at any point of time during the match, if the score of TeamB is greater than the runs scored by TeamA (in the first inning) then the match should not end. The match should continue until TeamB has faced all the 6 deliveries.<br />
-#Rough Algorithm<br />
+**Rough Algorithm**<br />
 1. Create a class Team that can store the following data<br />
  a. Team name<br />
  b. The three players<br /> 
@@ -29,7 +29,7 @@ b. TeamA will always bat first which means TeamB will always bowl first.<br />
 9. Start playing the second inning<br />
 10. Record total runs scored by the batting team in the second inning<br />
 11. Decide the winner<br />
-#Approach<br />
+**Approach**<br />
 1. Create a class Team that can store the following data:<br /> 
  a. Team name<br />
  b. The three players<br /> 
